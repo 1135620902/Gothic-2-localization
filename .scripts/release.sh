@@ -46,7 +46,7 @@ echo "Compiling Gothic 2 NotR Localizations..."
 
 # Loop over the directories in the specified directory
 # and compile the language specific DAT files
-for dir in release/langs/*; do
+for dir in release/langs/zh_*; do
     if [ -d "$dir" ]; then
         LANG=$(basename "$dir")
         ENC=$(get_encoding "$LANG")
