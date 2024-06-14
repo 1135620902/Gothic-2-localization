@@ -274,14 +274,14 @@ func void UseCorneliusTagebuch()
 
 	// 1.Seite
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
-				Doc_SetMargins(nDocID, 0, 285, 20, 30, 20, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLines	(nDocID, 0, CorneliusTagebuch_1);
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLines	(nDocID, 0, CorneliusTagebuch_2);
 
 	// 2.Seite
-				Doc_SetMargins(nDocID, -1, 30, 20, 285, 20, 1);
+				Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1);
 				Doc_PrintLine	(nDocID, 1, "");
 				Doc_PrintLines	(nDocID, 1, CorneliusTagebuch_3);
 				Doc_PrintLines	(nDocID, 1, CorneliusTagebuch_4);
