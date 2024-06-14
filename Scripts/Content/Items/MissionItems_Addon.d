@@ -1669,7 +1669,7 @@ func void UseGregsLogbuch()
 
 	// 1.Seite
 
-				Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1); // 0 -> margins are in pixels
 				Doc_SetFont(nDocID, 0, FONT_Book); // -1 -> all pages
 				Doc_PrintLines	(nDocID, 0, GregsLogbuch_1);
 				Doc_PrintLine	(nDocID, 0, "");
@@ -1677,7 +1677,7 @@ func void UseGregsLogbuch()
 				Doc_PrintLines	(nDocID, 0, GregsLogbuch_3);
 
 	// 2.Seite
-				Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1); // 0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
+				Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1); // 0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
 				Doc_SetFont(nDocID, 1, FONT_Book); // -1 -> all pages
 				Doc_PrintLines	(nDocID, 1, GregsLogbuch_4);
 				Doc_PrintLine	(nDocID, 1, "");
