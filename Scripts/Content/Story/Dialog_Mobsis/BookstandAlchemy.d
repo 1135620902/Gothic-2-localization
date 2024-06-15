@@ -161,7 +161,7 @@ func void Use_BookstandALCHEMY3_S1() // Alchemiebücher
 		Doc_SetPage(nDocID, 1, "Book_Mage_R.tga", 0);
 
 		Doc_SetFont(nDocID, -1, FONT_Book);
-		Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1);
+		Doc_SetMargins(nDocID, 0, 320, 20, 30, 20, 1);
 
 		Doc_PrintLine(nDocID, 0, "");
 		Doc_PrintLines(nDocID, 0, BookstandALCHEMY3_S1_1);
