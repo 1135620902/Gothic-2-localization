@@ -38,7 +38,7 @@ func void Use_BookstandAnimals1_S1() // Tierbücher
 		Doc_SetPage(nDocID, 1, "Book_Brown_R.tga", 0);
 
 		Doc_SetFont(nDocID, -1, FONT_Book);
-		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
+		Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1);
 
 		Doc_PrintLine(nDocID, 0, BookstandAnimals1_S1_1);
 		Doc_PrintLine(nDocID, 0, "");
@@ -50,7 +50,7 @@ func void Use_BookstandAnimals1_S1() // Tierbücher
 		Doc_PrintLine(nDocID, 0, BookstandAnimals1_S1_4);
 		Doc_PrintLines(nDocID, 0, BookstandAnimals1_S1_5);
 
-		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, BookstandAnimals1_S1_6);
@@ -95,7 +95,7 @@ func void Use_BookstandAnimals2_S1() // Tierbücher
 		Doc_SetPage(nDocID, 1, "Book_Brown_R.tga", 0);
 
 		Doc_SetFont(nDocID, -1, FONT_Book);
-		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
+		Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1);
 
 		Doc_PrintLine(nDocID, 0, BookstandAnimals2_S1_1);
 		Doc_PrintLine(nDocID, 0, "");
@@ -108,7 +108,7 @@ func void Use_BookstandAnimals2_S1() // Tierbücher
 		Doc_PrintLines(nDocID, 0, BookstandAnimals2_S1_5);
 		Doc_PrintLines(nDocID, 0, BookstandAnimals2_S1_6);
 
-		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, BookstandAnimals2_S1_7);
@@ -151,7 +151,7 @@ func void Use_BookstandAnimals3_S1() // Tierbücher
 		Doc_SetPage(nDocID, 1, "Book_Brown_R.tga", 0);
 
 		Doc_SetFont(nDocID, -1, FONT_Book);
-		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
+		Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1);
 
 		Doc_PrintLine(nDocID, 0, BookstandAnimals3_S1_1);
 		Doc_PrintLine(nDocID, 0, "");
@@ -162,7 +162,7 @@ func void Use_BookstandAnimals3_S1() // Tierbücher
 		Doc_PrintLines(nDocID, 0, BookstandAnimals3_S1_4);
 		Doc_PrintLines(nDocID, 0, BookstandAnimals3_S1_5);
 
-		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, BookstandAnimals3_S1_6);
 		Doc_PrintLine(nDocID, 1, "");
