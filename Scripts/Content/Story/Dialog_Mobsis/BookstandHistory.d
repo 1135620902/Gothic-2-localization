@@ -32,7 +32,7 @@ func void Use_BookstandHistory1_S1() // Geschichtsbücher
 		Doc_SetPage(nDocID, 1, "Book_RED_R.tga", 0);
 
 		Doc_SetFont(nDocID, -1, FONT_Book);
-		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
+		Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1);
 
 		Doc_PrintLine(nDocID, 0, BookstandHistory1_S1_1);
 		Doc_PrintLine(nDocID, 0, "");
@@ -41,7 +41,7 @@ func void Use_BookstandHistory1_S1() // Geschichtsbücher
 		Doc_PrintLines(nDocID, 0, BookstandHistory1_S1_2);
 		Doc_PrintLines(nDocID, 0, BookstandHistory1_S1_3);
 
-		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, "");
@@ -83,7 +83,7 @@ func void Use_BookstandHistory2_S1() // Geschichtsbücher
 		Doc_SetPage(nDocID, 1, "Book_RED_R.tga", 0);
 
 		Doc_SetFont(nDocID, -1, FONT_Book);
-		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
+		Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1);
 
 		Doc_PrintLine(nDocID, 0, BookstandHistory2_S1_1);
 		Doc_PrintLine(nDocID, 0, "");
@@ -91,7 +91,7 @@ func void Use_BookstandHistory2_S1() // Geschichtsbücher
 		Doc_PrintLines(nDocID, 0, BookstandHistory2_S1_3);
 		Doc_PrintLines(nDocID, 0, BookstandHistory2_S1_4);
 
-		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, BookstandHistory2_S1_5);
