@@ -127,6 +127,7 @@ func void Use_BookstandALCHEMY2_S1() // Alchemiebücher
 		Doc_PrintLine(nDocID, 1, BookstandALCHEMY2_S1_8);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, BookstandALCHEMY2_S1_9);
+		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, BookstandALCHEMY2_S1_10);
 		Doc_Show(nDocID);
 
