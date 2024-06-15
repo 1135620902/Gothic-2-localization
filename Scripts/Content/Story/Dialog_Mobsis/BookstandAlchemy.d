@@ -65,7 +65,6 @@ func void Use_BookstandALCHEMY1_S1() // Alchemiebücher
 		Doc_PrintLine(nDocID, 1, BookstandALCHEMY1_S1_8);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, BookstandALCHEMY1_S1_9);
-		Doc_PrintLine(nDocID, 1, ":");
 		Doc_PrintLines(nDocID, 1, BookstandALCHEMY1_S1_10);
 		Doc_Show(nDocID);
 
@@ -101,7 +100,7 @@ func void Use_BookstandALCHEMY2_S1() // Alchemiebücher
 		Doc_SetPage(nDocID, 1, "Book_Mage_R.tga", 0);
 
 		Doc_SetFont(nDocID, -1, FONT_Book);
-		Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1);
+		Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1);
 
 		Doc_PrintLine(nDocID, 0, "");
 		Doc_PrintLine(nDocID, 0, "");
@@ -119,7 +118,7 @@ func void Use_BookstandALCHEMY2_S1() // Alchemiebücher
 		Doc_PrintLine(nDocID, 0, BookstandALCHEMY2_S1_5);
 		Doc_PrintLine(nDocID, 0, "");
 
-		Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1);
+		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, BookstandALCHEMY2_S1_6);
@@ -128,7 +127,6 @@ func void Use_BookstandALCHEMY2_S1() // Alchemiebücher
 		Doc_PrintLine(nDocID, 1, BookstandALCHEMY2_S1_8);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, BookstandALCHEMY2_S1_9);
-		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLines(nDocID, 1, BookstandALCHEMY2_S1_10);
 		Doc_Show(nDocID);
 
