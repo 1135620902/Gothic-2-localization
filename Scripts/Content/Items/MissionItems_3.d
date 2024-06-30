@@ -815,7 +815,7 @@ func void Use_Astronomy()
 
 	// 1.Seite
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
-				Doc_SetMargins(nDocID, 0, 295, 30, 30, 30, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, 0, 310, 30, 30, 30, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLines	(nDocID, 0, Astronomy_1);
 				Doc_PrintLines	(nDocID, 0, Astronomy_2);
