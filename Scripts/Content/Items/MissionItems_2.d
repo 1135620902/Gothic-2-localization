@@ -308,7 +308,7 @@ func void UseItwr_Silvestro()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 50, 50, 85, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 50, 50, 80, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, Itwr_Silvestro_1);
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLines	(nDocID, 0, Itwr_Silvestro_2);
