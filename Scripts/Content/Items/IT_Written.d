@@ -290,7 +290,7 @@ func void UseEinhandBuch()
 	Doc_SetPage(nDocID, 0, "Book_Red_L.tga", 0);
 	Doc_SetPage(nDocID, 1, "Book_Red_R.tga", 0);
 
-				Doc_SetMargins(nDocID, 0, 285, 20, 30, 20, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, 0, 280, 20, 30, 20, 1); // 0 -> margins are in pixels
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLines	(nDocID, 0, EinhandBuch_1);
@@ -298,7 +298,7 @@ func void UseEinhandBuch()
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLines	(nDocID, 0, EinhandBuch_2);
 
-				Doc_SetMargins(nDocID, -1, 30, 20, 285, 20, 1); // 0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
+				Doc_SetMargins(nDocID, -1, 30, 20, 280, 20, 1); // 0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
 				Doc_SetFont(nDocID, 1, FONT_BookHeadline); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 1, "");
 				Doc_SetFont(nDocID, 1, FONT_Book); // -1 -> all pages
