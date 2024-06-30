@@ -1265,7 +1265,7 @@ func void UseBanditLetter()
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID, 1);
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
-				Doc_SetMargins(nDocID, -1, 50, 50, 50, 50, 1);
+				Doc_SetMargins(nDocID, -1, 70, 50, 50, 50, 1);
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_SetFont(nDocID, 0, FONT_Book);
