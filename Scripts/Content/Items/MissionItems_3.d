@@ -1405,7 +1405,7 @@ func void Use_VinosKellergeister_Mis()
 
 	// 1.Seite
 
-				Doc_SetMargins(nDocID, 0, 275, 20, 30, 20, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, 0, 300, 20, 30, 20, 1); // 0 -> margins are in pixels
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLines	(nDocID, 0, VinosKellergeister_Mis_1);
@@ -1420,7 +1420,7 @@ func void Use_VinosKellergeister_Mis()
 				Doc_PrintLines	(nDocID, 0, "");
 
 	// 2.Seite
-				Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1); // 0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
+				Doc_SetMargins(nDocID, -1, 30, 20, 300, 20, 1); // 0 -> margins are in pixels (Position des Textes von den Ränder des TGAs aus, links,oben,rechts,unten)
 				Doc_SetFont(nDocID, 1, FONT_BookHeadline); // -1 -> all pages
 				Doc_SetFont(nDocID, 1, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 1, "");
