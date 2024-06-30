@@ -33,7 +33,7 @@ func void Use_Hinweis_02()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 50, 50, 80, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_SetFont(nDocID, 0, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, "");
@@ -217,7 +217,7 @@ func void Use_Hinweis_01()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 50, 50, 80, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_SetFont(nDocID, 0, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, "");
@@ -323,7 +323,7 @@ func void Use_MCELIXIER_01()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 50, 50, 80, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_SetFont(nDocID, 0, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, MCELIXIER_01_1);
@@ -427,7 +427,7 @@ func void Use_Joint_Rezept_01()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 50, 50, 80, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, Joint_Rezept_01_1);
 				Doc_SetFont(nDocID, 0, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, "");
@@ -480,7 +480,7 @@ func void UseLouRezept()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 50, 50, 80, 50, 1); // 0 -> margins are in pixels
 				Doc_SetFont(nDocID, 0, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, LouRezept_1);
 				Doc_PrintLine	(nDocID, 0, "");
@@ -533,7 +533,7 @@ func void UseLouRezept2()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 50, 50, 80, 50, 1); // 0 -> margins are in pixels
 				Doc_SetFont(nDocID, 0, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, LouRezept2_1);
 				Doc_PrintLine	(nDocID, 0, "");
