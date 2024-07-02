@@ -1159,7 +1159,7 @@ func void Use_Addon_Stone_01()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "Adanos_Stoneplate_02.TGA", 0);
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 90, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 70, 50, 150, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
@@ -1217,7 +1217,7 @@ func void Use_Addon_Stone_05()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "Adanos_Stoneplate_01.TGA", 0);
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 90, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 70, 50, 150, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
@@ -1275,7 +1275,7 @@ func void Use_Addon_Stone_03()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "Adanos_Stoneplate_03.TGA", 0);
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 90, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 70, 50, 150, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
@@ -1335,7 +1335,7 @@ func void Use_Addon_Stone_04()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "Adanos_Stoneplate_04.TGA", 0);
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 90, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 70, 50, 150, 50, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
