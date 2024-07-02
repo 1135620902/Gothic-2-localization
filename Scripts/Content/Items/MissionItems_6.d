@@ -77,7 +77,7 @@ func void Use_XardasErmahnungFuerIdioten()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "letters.TGA", 0);
 				Doc_SetFont(nDocID, 0, FONT_BookHeadline); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 50, 50, 50, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 50, 50, 100, 50, 1); // 0 -> margins are in pixels
 				Doc_SetFont(nDocID, 0, FONT_Book); // -1 -> all pages
 				Doc_PrintLine	(nDocID, 0, "");
 				Doc_PrintLine	(nDocID, 0, "");
