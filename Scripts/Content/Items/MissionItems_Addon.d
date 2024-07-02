@@ -1397,7 +1397,7 @@ func void Use_Addon_Stone_02()
 	Doc_SetPages(nDocID, 1); // wieviel Pages
 	Doc_SetPage(nDocID, 0, "Adanos_Stoneplate_05.TGA", 0);
 				Doc_SetFont(nDocID, -1, FONT_Book); // -1 -> all pages
-				Doc_SetMargins(nDocID, -1, 70, 50, 100, 50, 1); // 0 -> margins are in pixels
+				Doc_SetMargins(nDocID, -1, 70, 50, 100, 30, 1); // 0 -> margins are in pixels
 				Doc_PrintLine	(nDocID, 0, "");
 	if (PLAYER_TALENT_FOREIGNLANGUAGE[LANGUAGE_1] == TRUE)
 	{
