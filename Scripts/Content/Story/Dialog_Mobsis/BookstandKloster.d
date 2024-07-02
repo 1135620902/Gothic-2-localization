@@ -601,7 +601,7 @@ func void Use_Bookstand_Kreise_06_S1()
 		Doc_PrintLine(nDocID, 0, Bookstand_Kreise_06_S1_17);
 		Doc_PrintLine(nDocID, 0, "");
 
-		Doc_SetMargins(nDocID, -1, 30, 20, 275, 20, 1);
+		Doc_SetMargins(nDocID, -1, 30, 20, 280, 20, 1);
 		Doc_PrintLine(nDocID, 1, "");
 		Doc_PrintLine(nDocID, 1, "");
 
