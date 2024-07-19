@@ -1,5 +1,8 @@
 # Gothic 2 Localization
-chinese fance edit.
+
+chinese Gothic fans edit.
+
+Specially optimized for 4K resolution.
 
 # Languages
 
